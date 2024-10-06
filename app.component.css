@@ -1,0 +1,22 @@
+.seat-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.seat-row {
+  display: flex;
+}
+
+.available {
+  background-color: green;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.booked {
+  background-color: red;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
